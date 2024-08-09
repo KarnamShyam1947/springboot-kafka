@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: kafka-producer-service
+
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+
+application:
+  kafka:
+    topic-name: demo-topic
